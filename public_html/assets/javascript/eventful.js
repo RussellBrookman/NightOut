@@ -20,7 +20,7 @@ var DN = {
     var where   = document.getElementById("where");
     var query   = document.getElementById("query");
     var oArgs = {
-       app_key: "LvNQGQZt7rxqzb3c",
+       app_key: "...",
        q: query.value,
        where: where.value,
        "date": "future",
