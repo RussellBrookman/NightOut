@@ -1,7 +1,7 @@
 {
   "name": "NightOut",
   "version": "1.0.0",
-  "description": "",
+  "description": "A night on the town",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
