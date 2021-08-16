@@ -11,7 +11,7 @@ $(function() {
             q: title,
             type: 'video',
             maxResults: '1',
-            key: 'AIzaSyAB-KHolKufATYfwA2ZBpXIia3Uznlbx3M'
+            key: '...'
         }, function(data){
             $.each(data.items, function(i, item) {
                 var thumb = '<a href="https://www.youtube.com/watch?v=' + item.id.videoId + '" target="_blank"><img src="' + item.snippet.thumbnails.high.url + '"></a>';
