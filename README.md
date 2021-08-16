@@ -1,6 +1,8 @@
-# NightOut ((remember to hide API key))
+# NightOut 
 
 This site is designed to let a person know what is going on in a particular city. It can be used to plan an evening for a date or, if you're traveling into a new city, can be used to find out what's going on localy. The software uses three ajax API calls/promises (Application Program Interface) to collect information and has a limiter of 10 events per request. The first is from Eventful in order to provide information about local events and provide links leading the user to the origional listing. The second call is provided to show a clickable screenshot which will lead to a YouTube video about the event you are interested in. The last call is to openweathermap.org which returns local weather information about the requested city. 
+
+YOU MUST GET YOUR OWN API KEYS!!! THEY THEN MUST BE ADDED TO EVENTFUL.JS AND YOUTUBE.JS. THESE FILES CAN BE FOUND IN THE JAVASCRIPT FOLDER.
 	
 
 # Prerequisites
